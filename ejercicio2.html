@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>EJERCICIO 2</h1>
+    <form action="mensaje.html">
+        <div>
+            <label for="color">Color</label>
+            <input id="color" type="color" required>
+        </div>
+        <div>
+            <label for="range">Range</label>
+            <input id="range" type="range" required>
+        </div>
+        <div>
+            <label for="date">Date</label>
+            <input id="date" type="date" required>
+        </div>
+        <div>
+            <label for="pass">Password</label>
+            <input id="pass" type="password" autofocus required>
+        </div>
+        <div>
+            <label for="edad">Edad</label>
+            <input type="number" required min="1" max="99">
+        </div>
+        <div>
+            <label for="propi">Tienes Propiedades?</label>
+            <input type="radio" required id="r1" name="propi" value="si"><label for="r1">Sí
+            <input type="radio" required id="r2" name="propi" value="no"><label for="r2">No
+        </div>
+        <div>
+            <label for="brevete">Activa la casilla si tienes brevete</label>
+            <input id="brevete" type="checkbox" required>
+        </div>
+        <div>
+            <label for="mensaje">Envianos un mensaje</label>
+            <div>
+                <textarea name="" id="mensaje" cols="30" rows="10" required></textarea>
+            </div>
+        </div>
+        <div>
+            <button type="submit">Validar</button>
+        </div>
+    </form>
+</body>
+
+</html>
